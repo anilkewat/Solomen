@@ -1,0 +1,239 @@
+/*    
+    designed by WebTemplateOcean     
+    http://www.webtemplateocean.com/      
+    released under Creative Commons Attribution-ShareAlike 3.0 license 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-bottom: 30px;
+    font: 13px Georgia, Times, serif;
+    color: #5C5C5C;
+    background: #4C4C41 url('images/bg.jpg');
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h1 {
+    float: right;
+    width: 835px;
+    font-size: 38px;
+    color: #7ABBBB;
+}
+
+h1 a, h1 a:hover {
+    color: #7ABBBB;
+    text-decoration: none;
+}
+
+p {
+    padding: .75em 0;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+p#subtitle {
+    float: right;
+    width: 835px;
+    padding: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #97E8E8;
+}
+
+a {
+    color: #659B9B;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* page */
+
+#page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* header */
+
+#header {
+    padding: 60px 0 0 40px;
+    height: 140px;
+}
+
+#header a img {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 71px;
+    border: none;
+}
+
+/* main */
+
+#main {
+    padding-top: 26px;
+    background: url('images/main.jpg') no-repeat top;
+}
+
+#main2 {
+    position: relative;
+    height: 1%;
+    background: url('images/main2.jpg') repeat-y right;
+}
+
+/* sidebar */
+
+#sidebar {
+    float: left;
+    width: 329px;
+    background: #F1E8C9 url('images/sidebar.jpg') repeat-y;
+}
+
+#sidebar2 {
+    padding: 0 49px 9px 0;
+    background: url('images/sidebar2.jpg') no-repeat bottom left;
+}
+
+/* menu */
+
+#menu {
+    height: 310px;
+    padding: 10px 65px 0 30px;
+    background: url('images/menu.jpg') no-repeat top left;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    padding-left: 25px;
+    font-size: 18px;
+    line-height: 1.8em;
+    background: url('images/li.gif') no-repeat 0 .5em;
+}
+
+#menu ul li a {
+    padding: 0;
+    text-transform: lowercase;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #FFFFFF;
+    color: #4D4D41;
+}
+
+#menu ul li a:hover {
+    color: #B29F66;
+}
+
+/* submenu */
+/* IMPORTANT! submenu height should be 632px plus(or minus)) multiplication of 52, e.g 632px+(3*52px)=788px */
+
+#submenu {
+    height: 632px;
+    padding: 0 65px 0 30px;
+    overflow: auto;
+}
+
+#submenu h2 {
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    color: #867A57;
+}
+
+#submenu .box {
+    padding: .75em 0 3em 0;
+}
+
+#submenu p {
+    text-align: left;
+}
+
+#submenu ul {
+    list-style: none;
+    padding: 1.3em 0 3.5em 0;
+}
+
+#submenu ul li {
+    padding: .2em 0;
+    line-height: 1.8em;
+}
+
+#submenu ul li a {
+    padding: 0;
+}
+
+/* content */
+
+#content {
+    float: right;
+    width: 610px;
+    background: #F1E8C9 url('images/main2.jpg') repeat-y right;
+}
+
+#content2 {
+    padding: 440px 30px 10px 0;
+    background: url('images/img.jpg') no-repeat 0 6px;
+}
+
+#content .post {
+    padding: 0 0 3.5em 0;
+}
+
+#content h2 {
+    color: #68899C;
+    font-size: 2.4em;
+    letter-spacing: -2px;
+}
+
+#content h2 a {
+    color: #68899C;
+    text-decoration: none;
+}
+
+p.postmeta {
+    font-size: .92em;
+}
+
+#content .entry {
+    padding: 1em 0 0 0;
+}
+
+#bg1 {
+    position: absolute;
+    bottom: 0;
+    left: 285px;
+    width: 675px;
+    height: 13px;
+    overflow: hidden;
+    background: url('images/bg1.jpg') no-repeat;
+}
+
+.clearing {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* footer */
+
+#footer {
+    clear: both;
+    padding-top: 30px;
+}
+
+#footer p {
+    padding-left: 350px;
+    font-size: .85em;
+    text-transform: uppercase;
+    color: #7C7C7C;
+}
